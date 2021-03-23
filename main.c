@@ -18,7 +18,7 @@ static unsigned int save_to_char(void *contents, unsigned int size, unsigned int
 	ralc_ptr = realloc(tmp_result->data, tmp_result->size + full_size + 1);
 
 	if(!ralc_ptr){
-		printf("frenchman >> out of memory\n");
+		printf("out of memory\n");
 		return 0;
 	}
 
