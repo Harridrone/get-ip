@@ -57,7 +57,7 @@ int main(int argc, char** argv){
 
 	res = curl_easy_perform(g_curl);
 
-	for(i = 0;i<15;++i){
+	for(i = 0;i<16;++i){
 
 		if(result.data[i+PREFIX_OFFSET] == ',')
 			break;
